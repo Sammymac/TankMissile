@@ -10,7 +10,6 @@ public class PlayerScript : MonoBehaviour {
 	private float accelration;
 	private float turnSpeed;
 
-	//private Transform Shell;
 
 	// Use this for initialization
 	void Start () {
@@ -19,10 +18,6 @@ public class PlayerScript : MonoBehaviour {
 		turnSpeed = 1;
 		maxSpeed = 100;
 
-//		for (int i=-8;i<8;i++) {
-//			fillSquare(i, 4);
-//			print ("i-->"+i+"<--");
-//		}
 		applyMap("Map1.txt");
 	}
 	

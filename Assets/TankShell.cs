@@ -25,13 +25,4 @@ public class TankShell : MonoBehaviour {
 		transform.Translate(Vector3.right * Time.deltaTime * speed);
 	}
 
-//	void OnCollisionEnter2D(Collision2D col){
-//		print ("Shell collided with-->"+col.gameObject.name+"<--");
-//		if(col.gameObject.name.Equals("Enemy")){
-//			print ("Hit Enemy");
-//		} else if (col.gameObject.name.Equals("Player")) {
-//			print ("Hit Player");
-//		}
-//		Destroy(this.gameObject);
-//	}
 }
