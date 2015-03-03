@@ -10,7 +10,6 @@ public class PlayerScript : MonoBehaviour {
 	private float accelration;
 	private float turnSpeed;
 
-
 	// Use this for initialization
 	void Start () {
 		speed = 0;
