@@ -16,6 +16,7 @@ public class PlayerScript : MonoBehaviour {
 		accelration = 2;
 		turnSpeed = 1;
 		maxSpeed = 100;
+
 		applyMap("Map1.txt");
 	}
 	
